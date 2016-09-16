@@ -5,8 +5,10 @@
   * consists of tools related to security, information gathering, anonymity and so on.
   * toolkit is provided as-is and installing any tool from this toolkit in your Linux could require non-trivial tasks and adjustments or even need to read/rewrite/customize some parts of the code.
   * some of the scripts included are not my own but were taken from various sources from the Internet (if they were better comparing to what i wrote by myself). Mostly I respect their authorship by not touching headers with a link to the original autor if the files contain such information. However the files links to the original author, files can be subject to my changes, customizations or improvements to my needs.
+ 
+### Feel free to add your improvements/scripts to this collection
 
-Tools included in toolkit in more detail:
+## Tools included in toolkit in more detail:
   
 * **MaDHCPhost changer** - you probably know macchanger that changes hardware address of your network device when you want to avoid tracking identities bundled with your network device identificator (MAC address). Unfortunately this is not the only identificator bundled with your device. Normally you are sending your hostname in your DHCP request for an IPv4 address. This script changes MAC each time you connect and also selects new DHCP hostname from dictionary of common words. Warning: can eat up all your DHCP range of not assigned IP address if you reconnecting frequently
 * **My UDEV notify** - udev rule scripts that notifies you each time an device is plugged/unplugged.

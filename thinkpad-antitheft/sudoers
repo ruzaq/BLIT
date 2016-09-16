@@ -1,0 +1,6 @@
+Defaults	env_reset,!tty_tickets,insults
+Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
+Cmnd_Alias   TPTHEFT = /usr/local/bin/tp-theft.pl *, /bin/kill -9 *
+Defaults!TPTHEFT !syslog, !pam_session
+ruza ALL=NOPASSWD: TPTHEFT

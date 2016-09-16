@@ -1,0 +1,19 @@
+[Unit]
+Description=wifi-probe-scanner
+
+[Service]
+Type=simple
+NotifyAccess=all
+RemainAfterExit=yes
+# just call /bin/true and let psd-resync.service do it for speed
+#Environment=XDG_RUNTIME_DIR=/run/user/1000/
+ExecStart=/usr/local/bin/hoover-start.sh start
+ExecStop=/usr/local/bin/hoover-start.sh stop
+PIDFile=/run/wifi-probe-scanner.pid
+KillMode=mixed
+Restart=on-failure
+RestartSec=42s
+User=ruza
+
+[Install]
+WantedBy=default.target

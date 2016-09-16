@@ -1,0 +1,3 @@
+Cmnd_Alias   AIRMON = /sbin/ifconfig * up, /usr/sbin/airmon-ng start *, /usr/sbin/airmon-ng stop *, /usr/local/bin/hoover.pl *
+Defaults!AIRMON !syslog, !pam_session
+ruza ALL=NOPASSWD: AIRMON

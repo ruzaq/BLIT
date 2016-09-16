@@ -11,9 +11,6 @@ chmod 755 /usr/local/bin/hoover-start.sh
 * UPLINK_WLAN to Wifi interface you are using to connect to Internet 
 editor /usr/local/bin/hoover-start.sh 
 
-cp dbus-find-session.sh /usr/local/bin/
-chmod 755 /usr/local/bin/dbus-find-session.sh
-
 cp wifi-probes.service /etc/systemd/system/
 * change value of User=ruza to user to be notified
 editor /etc/systemd/system/wifi-probes.service

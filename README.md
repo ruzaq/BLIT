@@ -1,5 +1,5 @@
 # BLIT
-Brmlab Linux Improvements Toolkit
+## Brmlab Linux Improvements Toolkit
 
   * is an collection of tools and scripts you can implement yourself on your Linux desktop/notebook to improve an experience using your device.
   * consists of tools related to security, information gathering, anonymity and so on.
@@ -8,8 +8,8 @@ Brmlab Linux Improvements Toolkit
 
 Tools included in toolkit in more detail:
   
-  * **MaDHCPhost changer** - you probably know macchanger that changes hardware address of your network device when you want to avoid tracking identities bundled with your network device identificator (MAC address). Unfortunately this is not the only udentificator bundled with your device. Normally you are sending your hostname in your DHCP request for an IPv4 address. This script changes MAC each time you connect and also selects new DHCP hostname from dictionary of common words. Warning: can eat up all your DHCP range of not assigned IP address if you reconnecting frequently
-  * **My UDEV notify** - udev rule scripts that notifies you each time an device is plugged/unplugged.
-  * **NeNe discovery** - discovers network devices connected to the same network as your laptop. When you connect with your laptop via ethernet/WiFi to the network you'd possibly like to know something about network devices that resides on the same network as You. This script does it automatically each time you connect and makes an desktop notification with a list of devices discovered.
-  * **thinkpad-antitheft** - customized script that starts when you lock screen, ends itself when screen unlocked and activate an audio alarm when device moves while screen locked. Needs an working HDAPS (Thinkpad notebooks)
-  * **wifi-probes**: collection of scripts that sniffs wireless network broadcasts from wireless devices around, logs them and notify you an SSIDs seen. Requires an secondary wireless device.
+* **MaDHCPhost changer** - you probably know macchanger that changes hardware address of your network device when you want to avoid tracking identities bundled with your network device identificator (MAC address). Unfortunately this is not the only udentificator bundled with your device. Normally you are sending your hostname in your DHCP request for an IPv4 address. This script changes MAC each time you connect and also selects new DHCP hostname from dictionary of common words. Warning: can eat up all your DHCP range of not assigned IP address if you reconnecting frequently
+* **My UDEV notify** - udev rule scripts that notifies you each time an device is plugged/unplugged.
+* **NeNe discovery** - discovers network devices connected to the same network as your laptop. When you connect with your laptop via ethernet/WiFi to the network you'd possibly like to know something about network devices that resides on the same network as You. This script does it automatically each time you connect and makes an desktop notification with a list of devices discovered.
+* **thinkpad-antitheft** - customized script that starts when you lock screen, ends itself when screen unlocked and activate an audio alarm when device moves while screen locked. Needs an working HDAPS (Thinkpad notebooks)
+* **wifi-probes**: collection of scripts that sniffs wireless network broadcasts from wireless devices around, logs them and notify you an SSIDs seen. Requires an secondary wireless device.
